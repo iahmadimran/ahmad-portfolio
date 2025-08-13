@@ -4,13 +4,15 @@ import { gridItems } from '@/data'
 
 const Grid = () => {
   return (
-    <section id='about' className='pt-52 pb-28'>
-      <h1 className='heading'>
-        About <span className='text-purple'>Me</span>
-      </h1>
-      <p className="text-xl mt-4 text-center">
-        I’m a passionate frontend & full-stack developer who loves turning complex problems into simple, elegant solutions. With a strong focus on modern design, AI integration, and user experience, I create digital products that are fast, scalable, and impactful.
-      </p>
+    <section id='about' className='pt-40 pb-28'>
+      <div className='flex justify-center items-center flex-col'>
+        <h1 className='heading'>
+          About <span className='text-purple'>Me</span>
+        </h1>
+        <p className="text-xl mt-4 text-center w-4/5">
+          I’m a passionate frontend & full-stack developer who loves turning complex problems into simple, elegant solutions. With a strong focus on modern design, AI integration, and user experience, I create digital products that are fast, scalable, and impactful.
+        </p>
+      </div>
       <div className='mt-24'>
         <BentoGrid>
           {gridItems.map((item) => (
