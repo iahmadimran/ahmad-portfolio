@@ -48,7 +48,7 @@ const Hero = () => {
             I&apos;m Ahmad Imran, An AI-Full Stack Developer based in Pakistan.
           </p>
 
-          <a href="#about" className='text-center w-full'>
+          <a href="#projects" className='text-center w-full'>
             <MagicButton 
               title='Check My Work'
               position='right'
