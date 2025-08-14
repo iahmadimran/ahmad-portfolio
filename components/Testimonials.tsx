@@ -13,7 +13,7 @@ const Testimonials = () => {
         Real feedback from clients, and collaborators who’ve experienced my work firsthand. Their words reflect my dedication, creativity, and passion for delivering results that matter.
       </p>
 
-      <div className="flex flex-col gap-8 justify-center items-center mt-12">
+      <div className="flex flex-col gap-8 justify-center items-center mt-12 px-4 md:px-12">
         <InfiniteMovingCards
           items={testimonials}
           direction='right'

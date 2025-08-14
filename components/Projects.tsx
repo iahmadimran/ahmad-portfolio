@@ -13,7 +13,7 @@ const Projects = () => {
         A curated selection of my favorite creations — blending clean code, modern design, and AI-driven innovation to turn ideas into impactful digital experiences.
       </p>
 
-      <div className="flex justify-center items-center flex-wrap gap-x-16 gap-y-8 p-4 mt-4">
+      <div className="flex justify-center items-center flex-wrap gap-x-16 gap-y-8 p-4 mt-4 px-4 md:px-12">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             className="sm:h-[41rem] lg:min-h-[32.5rem] h-[32rem] flex items-center justify-center sm:w-[500px] w-[80vw]"
