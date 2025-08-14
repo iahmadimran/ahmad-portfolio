@@ -5,7 +5,7 @@ import { FaLocationArrow } from "react-icons/fa6"
 
 const Projects = () => {
   return (
-    <section id='projects' className="pt-28">
+    <section id='projects' className="py-24">
       <h1 className="heading">
         The <span className="text-purple">Projects</span> I&apos;m Most Proud Of
       </h1>
@@ -16,14 +16,14 @@ const Projects = () => {
       <div className="flex justify-center items-center flex-wrap gap-x-16 gap-y-8 p-4 mt-4">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
-            className="sm:h-[41rem] lg:min-h-[32.5rem] h-[32rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
+            className="sm:h-[41rem] lg:min-h-[32.5rem] h-[32rem] flex items-center justify-center sm:w-[500px] w-[80vw]"
             key={id}
           >
             <PinContainer
               title="Visit"
               href={link}
             >
-              <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] sm:h-[40vh] overflow-hidden h-[30vh] mb-10">
+              <div className="relative flex items-center justify-center sm:w-[500px] w-[80vw] sm:h-[40vh] overflow-hidden h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
