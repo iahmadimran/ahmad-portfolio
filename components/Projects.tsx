@@ -9,7 +9,7 @@ const Projects = () => {
       <h1 className="heading">
         The <span className="text-purple">Projects</span> I&apos;m Most Proud Of
       </h1>
-      <p className="text-xl mt-4 text-center">
+      <p className="text-xl text-white-100 mt-4 text-center">
         A curated selection of my favorite creations — blending clean code, modern design, and AI-driven innovation to turn ideas into impactful digital experiences.
       </p>
 
@@ -23,7 +23,7 @@ const Projects = () => {
               title="Visit"
               href={link}
             >
-              <div className="relative flex items-center justify-center sm:w-[500px] w-[80vw] sm:h-[40vh] overflow-hidden h-[30vh] mb-10">
+              <div className="relative flex items-center justify-center sm:w-[500px] w-[80vw] sm:h-[40vh] overflow-hidden h-[30vh] mb-0">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}

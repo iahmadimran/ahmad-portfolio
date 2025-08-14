@@ -9,11 +9,11 @@ const Experience = () => {
       <h1 className="heading">
         My <span className="text-purple">Practical Experience</span>
       </h1>
-      <p className="text-xl mt-4 text-center">
+      <p className="text-xl text-white-100 mt-4 text-center">
         Highlights of projects and roles where I’ve applied my skills to create impactful, high-quality products.
       </p>
 
-      <div className="w-full mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4 md:px-12">
+      <div className="w-full mt-18 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4 md:px-12">
         {workExperience.map((card) => (
           <Button
             key={card.id}

@@ -10,11 +10,11 @@ const Approach = () => {
       <h1 className="heading">
         My <span className="text-purple">Approach</span>
       </h1>
-      <p className="text-xl mt-4 text-center">
+      <p className="text-xl text-white-100 mt-4 text-center">
         I believe great products come from a balance of creativity, planning, and execution. My workflow is simple yet effective.
       </p>
 
-      <div className="w-full mt-12 flex flex-col justify-center items-center md:flex-row gap-6 px-4 md:px-12">
+      <div className="w-full mt-18 flex flex-col justify-center items-center md:flex-row gap-6 px-4 md:px-12">
         <Card title="Planning & Strategy Building" description="We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements." icon={<AceternityIcon order="First Task" />}>
           <CanvasRevealEffect
             animationSpeed={5.1}

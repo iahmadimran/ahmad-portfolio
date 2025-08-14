@@ -9,11 +9,11 @@ const Testimonials = () => {
       <h1 className="heading">
         What People Say <span className="text-purple">About My Work</span>
       </h1>
-      <p className="text-xl mt-4 text-center">
+      <p className="text-xl text-white-100 mt-4 text-center">
         Real feedback from clients, and collaborators who’ve experienced my work firsthand. Their words reflect my dedication, creativity, and passion for delivering results that matter.
       </p>
 
-      <div className="flex flex-col gap-8 justify-center items-center mt-12 px-4 md:px-12">
+      <div className="flex flex-col gap-8 justify-center items-center mt-18 px-4 md:px-12">
         <InfiniteMovingCards
           items={testimonials}
           direction='right'

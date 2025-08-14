@@ -4,12 +4,12 @@ import { gridItems } from '@/data'
 
 const Grid = () => {
   return (
-    <section id='about' className='py-24'>
+    <section id='about' className='py-24 z-100'>
       <div className='flex justify-center items-center flex-col'>
         <h1 className='heading'>
           About <span className='text-purple'>Me</span>
         </h1>
-        <p className="text-xl mt-4 text-center w-4/5">
+        <p className="text-xl text-white-100 mt-4 text-center w-4/5">
           I’m a passionate frontend & full-stack developer who loves turning complex problems into simple, elegant solutions. With a strong focus on modern design, AI integration, and user experience, I create digital products that are fast, scalable, and impactful.
         </p>
       </div>
