@@ -23,7 +23,7 @@ const Projects = () => {
               title="Visit"
               href={link}
             >
-              <div className="relative flex items-center justify-center sm:w-[500px] w-[80vw] sm:h-[40vh] overflow-hidden h-[30vh] mb-0">
+              <div className="relative flex items-center justify-center sm:w-[500px] w-[80vw] sm:h-[40vh] overflow-hidden h-[30vh] mb-5">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
@@ -33,8 +33,8 @@ const Projects = () => {
                 <Image
                   src={img}
                   alt="cover"
-                  className="z-10 absolute bottom-0"
-                  height={500} width={340}
+                  className={`z-10 absolute rotate-5 bottom-0`}
+                  height={520} width={360}
                 />
               </div>
 

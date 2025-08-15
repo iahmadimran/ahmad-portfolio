@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I turn ideas into pixel-perfect, high-performance experiences that look and feel amazing.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Working across time zones with ease to keep collaboration efficient.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -29,7 +29,7 @@ export const gridItems = [
   {
     id: 3,
     title: "My tech stack",
-    description: "I constantly try to improve",
+    description: "Always learning, always improving — my toolkit evolves with every project.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Passionate about creating digital solutions that truly make an impact.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a JS animation library to make the web more alive",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -59,7 +59,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Let’s turn your vision into a powerful, well-crafted product",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,68 +72,76 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Intellecta - AI-Powered Teaching Assisstant Saas App",
+    des: "A real-time EdTech SaaS platform with conversational AI assistants using speech synthesis & live voice interaction using Next.js.",
+    img: "/intellecta-screenshot.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    link: "https://intellecta-pink.vercel.app",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "Draftly - A Live Docs App",
+    des: "A collaborative document editor with real-time sync and user presence using Liveblocks and Lexical.",
+    img: "/draftly-screenshot.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    link: "https://draftly-ten.vercel.app",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "Rezoom AI - An AI-Powered Resume Analyzer",
+    des: "An AI-powered resume analyzer using GPT to evaluate resumes against job descriptions with feedback on ATS readiness.",
+    img: "/rezoomai-screenshot.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    link: "https://rezoomai-eight.vercel.app",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "Vibra - A Social Media Platform",
+    des: "A modern social platform that lets users share moments, connect in real time, and build communities through photos, videos, and interactive posts.",
+    img: "/snapgram-screenshot.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://snapgram-kappa-one.vercel.app",
+  },
+  {
+    id: 5,
+    title: "Next Bulls - A Modern Trading Portfolio For Client",
+    des: "A learning trading community delivering expert crypto and stock market insights, where members grow together through accurate trade signals and shared gains.",
+    img: "/nextbulls-screenshot.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://nextbulls.xyz",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Ahmad was a seamless experience from start to finish. His ability to understand our vision and translate it into a polished, functional product exceeded all expectations. He not only delivered on time but went above and beyond to ensure every detail was perfect.",
+    name: "Sarah Mitchell",
+    title: "CEO of BrightPath Solutions",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ahmad’s work ethic and creativity are unmatched. He approached our project with a problem-solving mindset, suggesting innovative solutions we hadn’t even considered. The end result was a sleek, high-performing platform that our clients love using every day.",
+    name: "David Carter",
+    title: "Product Manager at InnovateX",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "From the first meeting to the final launch, Ahmad made the process effortless. His technical expertise, clear communication, and dedication to quality made him an invaluable partner. I’m already planning our next project together.",
+    name: "Emily Ross",
+    title: "Founder of StudioWave",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ahmad is the kind of developer every team wishes they had. He quickly understood our goals, communicated clearly at every stage, and delivered a product that was not only functional but exceeded our design expectations",
+    name: "Mark Reynolds",
+    title: "CTO at HorizonWorks",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "What impressed me most about Ahmad was his attention to detail and commitment to delivering the best possible outcome. He treated our project as if it were his own, and the results speak for themselves — fast, reliable, and beautifully built.",
+    name: "Linda Parker",
+    title: "Marketing Director at BluePeak Digital",
   },
 ];
 
